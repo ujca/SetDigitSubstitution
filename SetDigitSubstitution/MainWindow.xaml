@@ -1,0 +1,102 @@
+﻿<Window x:Class="SetDigitSubstitution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:uiwc="clr-namespace:UAM.InformatiX.Windows.Controls"
+        Title="Configure Digit Substitution" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" WindowStyle="SingleBorderWindow">
+    <DockPanel>
+        <Border DockPanel.Dock="Bottom" BorderBrush="Silver" BorderThickness="0,1,0,0" Background="WhiteSmoke">
+            <Button IsDefault="True" Content="A_pply" HorizontalAlignment="Right" MinWidth="80" Margin="5" Padding="5,3" Click="OnApplyClicked" />
+        </Border>
+        
+        <uiwc:LabelGrid Margin="5">
+            <uiwc:LabelGrid.ContentStyle>
+                <Style TargetType="FrameworkElement">
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </uiwc:LabelGrid.ContentStyle>
+
+            <Label Content="_Culture:" />
+            <ComboBox Name="_cultureBox" SelectedValuePath="LCID" TextSearch.TextPath="DisplayName" HorizontalContentAlignment="Stretch">
+                <ComboBox.ItemContainerStyle>
+                    <Style TargetType="ComboBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ComboBox.ItemContainerStyle>
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="5" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            
+                            <TextBlock Grid.Row="0" Text="{Binding DisplayName, Mode=OneTime}" FontWeight="Bold" />
+                            <TextBlock Grid.Row="1" Text="{Binding NativeName, Mode=OneTime}" />
+
+                            <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding Name, Mode=OneTime}" HorizontalAlignment="Right" />
+                            <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding LCID, Mode=OneTime, StringFormat={}0x{0:X4}}" HorizontalAlignment="Right" />
+                        </Grid>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <Label Content="Substituted _digits:" />
+            <ComboBox Name="_digitsBox" SelectedValuePath="Digits" TextSearch.TextPath="Section" HorizontalContentAlignment="Stretch">
+                <ComboBox.ItemContainerStyle>
+                    <Style TargetType="ComboBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ComboBox.ItemContainerStyle>
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="{Binding Section}" FontWeight="Bold" />
+                            <TextBlock Grid.Row="1" Text="{Binding Subsection}" />
+                            <TextBlock Grid.Column="1" Grid.RowSpan="2" Text="{Binding Digits}" FontSize="18" VerticalAlignment="Center" Margin="5,0,0,0" />
+                        </Grid>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <Label Content="Digit substitution:" />
+            <StackPanel Margin="0,8,0,0" MaxWidth="400">
+                <RadioButton Name="_substNever" Margin="0,0,0,5" Tag="None">
+                    <TextBlock TextWrapping="Wrap">
+                    <Bold><AccessText>_Never</AccessText></Bold>
+                    <LineBreak />
+                    No substitution used. Full Unicode compatibility.
+                    </TextBlock>
+                </RadioButton>
+                <RadioButton Name="_substContext" Margin="0,0,0,5" Tag="Context">
+                    <TextBlock TextWrapping="Wrap">
+                    <Bold><AccessText>_Contextual</AccessText></Bold>
+                    <LineBreak />
+                    Context-based substitution. Digits are displayed based on the previous text in the same output.
+                    When there is no preceding text, the locale and the displayed reading order determine digit substitution.
+                    </TextBlock>
+                </RadioButton>
+                <RadioButton Name="_substAlways" Margin="0,0,0,5" Tag="NativeNational">
+                    <TextBlock TextWrapping="Wrap">
+                    <Bold><AccessText>_Always</AccessText></Bold>
+                    <LineBreak /> 
+                    Native digit substitution. National shapes are displayed according to the selection above.
+                    </TextBlock>
+                </RadioButton>
+            </StackPanel>
+        </uiwc:LabelGrid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetDigitSubstitution", "SetDigitSubstitution\SetDigitSubstitution.csproj", "{7DE15AAB-5DEB-4EFD-BA7F-2641A97C421E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{936C4163-C2EC-4322-B789-8D0FA4A39996}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+		Screenshot.png = Screenshot.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DE15AAB-5DEB-4EFD-BA7F-2641A97C421E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE15AAB-5DEB-4EFD-BA7F-2641A97C421E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE15AAB-5DEB-4EFD-BA7F-2641A97C421E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE15AAB-5DEB-4EFD-BA7F-2641A97C421E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4D9D83F-34F4-45B2-BBCA-595B9F1351DB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.uam.im:8080/tfs/studies
+		SccProjectUniqueName0 = SetDigitSubstitution\\SetDigitSubstitution.csproj
+		SccProjectName0 = SetDigitSubstitution
+		SccLocalPath0 = SetDigitSubstitution
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

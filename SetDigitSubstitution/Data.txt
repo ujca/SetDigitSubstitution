@@ -1,0 +1,62 @@
+0123456789;C0 Controls and Basic Latin (Basic Latin);ASCII digits
+٠١٢٣٤٥٦٧٨٩;Arabic;Arabic-Indic digits
+۰۱۲۳۴۵۶۷۸۹;Arabic;Eastern Arabic-Indic digits
+߀߁߂߃߄߅߆߇߈߉;NKo;Digits
+०१२३४५६७८९;Devanagari;Digits
+০১২৩৪৫৬৭৮৯;Bengali;Digits
+੦੧੨੩੪੫੬੭੮੯;Gurmukhi;Digits
+૦૧૨૩૪૫૬૭૮૯;Gujarati;Digits
+୦୧୨୩୪୫୬୭୮୯;Oriya;Digits
+௦௧௨௩௪௫௬௭௮௯;Tamil;Digits
+౦౧౨౩౪౫౬౭౮౯;Telugu;Digits
+೦೧೨೩೪೫೬೭೮೯;Kannada;Digits
+൦൧൨൩൪൫൬൭൮൯;Malayalam;Digits
+෦෧෨෩෪෫෬෭෮෯;Sinhala;Astrological digits
+๐๑๒๓๔๕๖๗๘๙;Thai;Digits
+໐໑໒໓໔໕໖໗໘໙;Lao;Digits
+༠༡༢༣༤༥༦༧༨༩;Tibetan;Digits
+၀၁၂၃၄၅၆၇၈၉;Myanmar;Digits
+႐႑႒႓႔႕႖႗႘႙;Myanmar;Shan digits
+០១២៣៤៥៦៧៨៩;Khmer;Digits
+᠐᠑᠒᠓᠔᠕᠖᠗᠘᠙;Mongolian;Digits
+᥆᥇᥈᥉᥊᥋᥌᥍᥎᥏;Limbu;Digits
+᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙;New Tai Lue;Digits
+᪀᪁᪂᪃᪄᪅᪆᪇᪈᪉;Tai Tham;Hora digits
+᪐᪑᪒᪓᪔᪕᪖᪗᪘᪙;Tai Tham;Tham digits
+᭐᭑᭒᭓᭔᭕᭖᭗᭘᭙;Balinese;Digits
+᮰᮱᮲᮳᮴᮵᮶᮷᮸᮹;Sundanese;Digits
+᱀᱁᱂᱃᱄᱅᱆᱇᱈᱉;Lepcha;Digits
+᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙;Ol Chiki;Digits
+꘠꘡꘢꘣꘤꘥꘦꘧꘨꘩;Vai;Digits
+꣐꣑꣒꣓꣔꣕꣖꣗꣘꣙;Saurashtra;Digits
+꤀꤁꤂꤃꤄꤅꤆꤇꤈꤉;Kayah Li;Digits
+꧐꧑꧒꧓꧔꧕꧖꧗꧘꧙;Javanese;Digits
+꧰꧱꧲꧳꧴꧵꧶꧷꧸꧹;Myanmar Extended-B;Tai Laing digits
+꩐꩑꩒꩓꩔꩕꩖꩗꩘꩙;Cham;Digits
+꯰꯱꯲꯳꯴꯵꯶꯷꯸꯹;Meetei Mayek;Digits
+０１２３４５６７８９;Halfwidth and Fullwidth Forms;Fullwidth ASCII variants
+𐒠𐒡𐒢𐒣𐒤𐒥𐒦𐒧𐒨𐒩;Osmanya;Digits
+𐴰𐴱𐴲𐴳𐴴𐴵𐴶𐴷𐴸𐴹;Hanifi Rohingya;Digits
+𑁦𑁧𑁨𑁩𑁪𑁫𑁬𑁭𑁮𑁯;Brahmi;Digits
+𑃰𑃱𑃲𑃳𑃴𑃵𑃶𑃷𑃸𑃹;Sora Sompeng;Digits
+𑄶𑄷𑄸𑄹𑄺𑄻𑄼𑄽𑄾𑄿;Chakma;Digits
+𑇐𑇑𑇒𑇓𑇔𑇕𑇖𑇗𑇘𑇙;Sharada;Digits
+𑋰𑋱𑋲𑋳𑋴𑋵𑋶𑋷𑋸𑋹;Khudawadi;Digits
+𑑐𑑑𑑒𑑓𑑔𑑕𑑖𑑗𑑘𑑙;Newa;Digits
+𑓐𑓑𑓒𑓓𑓔𑓕𑓖𑓗𑓘𑓙;Tirhuta;Digits
+𑙐𑙑𑙒𑙓𑙔𑙕𑙖𑙗𑙘𑙙;Modi;Digits
+𑛀𑛁𑛂𑛃𑛄𑛅𑛆𑛇𑛈𑛉;Takri;Digits
+𑜰𑜱𑜲𑜳𑜴𑜵𑜶𑜷𑜸𑜹;Ahom;Digits
+𑣠𑣡𑣢𑣣𑣤𑣥𑣦𑣧𑣨𑣩;Warang Citi;Digits
+𑱐𑱑𑱒𑱓𑱔𑱕𑱖𑱗𑱘𑱙;Bhaiksuki;Digits
+𑵐𑵑𑵒𑵓𑵔𑵕𑵖𑵗𑵘𑵙;Masaram Gondi;Digits
+𑶠𑶡𑶢𑶣𑶤𑶥𑶦𑶧𑶨𑶩;Gunjala Gondi;Digits
+𖩠𖩡𖩢𖩣𖩤𖩥𖩦𖩧𖩨𖩩;Mro;Digits
+𖭐𖭑𖭒𖭓𖭔𖭕𖭖𖭗𖭘𖭙;Pahawh Hmong;Digits
+𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗;Mathematical Alphanumeric Symbols;Bold digits
+𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡;Mathematical Alphanumeric Symbols;Double-struck digits
+𝟢𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫;Mathematical Alphanumeric Symbols;Sans-serif digits
+𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵;Mathematical Alphanumeric Symbols;Sans-serif bold digits
+𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿;Mathematical Alphanumeric Symbols;Monospace digits
+𞅀𞅁𞅂𞅃𞅄𞅅𞅆𞅇𞅈𞅉;Nyiakeng Puachue Hmong;Digits
+𞋰𞋱𞋲𞋳𞋴𞋵𞋶𞋷𞋸𞋹;Wancho;Digits
